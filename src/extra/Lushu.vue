@@ -116,7 +116,7 @@ export default {
           this.$emit('stop', e)
         },
         onstep: e => {
-          this.$emit('step', {e});
+          this.$emit('step', e);
         },
         onpause: e => this.$emit('pause')
       })
