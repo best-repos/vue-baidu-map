@@ -84,7 +84,7 @@
     "vue": "^2.1.8"
   },
   "dependencies": {
-    "bmaplib.lushu": "^1.0.5",
+    "bmaplib.lushu": "https://github.com/xibeiwind/BMapLib.LuShu.git",
     "bmaplib.markerclusterer": "^1.0.6"
   }
 }
