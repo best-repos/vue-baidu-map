@@ -82,6 +82,7 @@ export default {
       @start="changeBtnText('pause')"
       @stop="changeBtnText('play_arrow')"
       @pause="changeBtnText('play_arrow')"
+      @step="lushuStep"
       :path="path"
       :rotation="rotation"
       :content="content"
@@ -165,6 +166,9 @@ export default {
     },
     handleSearchComplete (res) {
       this.path = res.getPlan(0).getRoute(0).getPath()
+    },
+    lushuStep({index}){
+      console.log(index);
     }
   }
 }
